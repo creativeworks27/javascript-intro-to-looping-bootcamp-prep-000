@@ -11,10 +11,10 @@ function forLoop(array){
   }
   return array;
 }
-function whileLoop(number){
-  var countdown = 
-  while(countdown > 0){
-    console.log(--countdown)}
+function whileLoop(number) {
+  while (number > 0) {
+    console.log(number);
+    number--;
   }
-  return('done');
+  return 'done';
 }
